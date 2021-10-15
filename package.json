@@ -1,0 +1,38 @@
+{
+  "name": "solid-use-script",
+  "version": "0.0.1",
+  "description": "Solid hook to dynamically load an external script",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanichKotikov/solid-use-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanichKotikov/solid-use-script/issues"
+  },
+  "homepage": "https://github.com/SanichKotikov/solid-use-script",
+  "author": "Sanich Kotikov <sancho@cdrpro.ru> (https://sanichkotikov.github.io)",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "script",
+    "loader",
+    "hook",
+    "solid-js",
+    "solid"
+  ],
+  "peerDependencies": {
+    "solid-js": ">= 1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  }
+}
